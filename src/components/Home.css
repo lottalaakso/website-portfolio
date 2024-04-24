@@ -1,18 +1,30 @@
-
-
-/* Left and right column */
-.column.side {
-  width: 25%;
+.content {
+  width: 860px;
+  height: 60%;
+  margin: auto;
+  margin-top: 85px;
+  color: #FCF6F5;
+  animation: fadeInAnimation ease 2s; 
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
-/* Middle column */
-.column.middle {
-  width: 50%;
+h2 {
   color: #990011;
   font-family: 'DM Serif Display';
+  letter-spacing: 4px;
+  font-size: 35px;
+  text-align: center;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+.p {
+  font-family: 'Raleway';
+  font-size: 20px; 
+  letter-spacing: 1px;
+  text-align: center;
+  color: #990011;
+}
+
 @media screen and (max-width: 600px) {
   .column.side, .column.middle {
     width: 100%;

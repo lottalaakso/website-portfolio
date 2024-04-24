@@ -15,7 +15,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <div class="footer">
-        <p>Footer</p>
+        <p><a href="https://www.freepik.com/free-photo/monstera-deliciosa-concrete-wall_15608949.htm#fromView=search&page=2&position=19&uuid=8c61990e-4495-4bf4-b36e-7a01f5ab451a"
+        target="blank">Designed by Freepik</a></p>
       </div>
     </div>
   );

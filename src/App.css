@@ -3,13 +3,34 @@
   width: 100%;
   background: url(https://img.freepik.com/free-photo/monstera-deliciosa-concrete-wall_53876-104288.jpg?t=st=1713955711~exp=1713959311~hmac=701c0af6f898f64e41c31ec6be2faf1a77d77946efb7ab0e93be87b77e2379a6&w=1060) no-repeat, center fixed;
   background-size: cover;
+  animation: fadeInAnimation ease 4s; 
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .footer {
   position: fixed; 
   bottom: 0; 
   width: 100%; 
-  background-color: rgb(255, 255, 255, 0.3); 
-  color: rgb(0, 0, 0); 
-  text-align: center; 
+  background-color: rgb(255, 255, 255, 0.1);  
+  text-align: center;
+}
+
+a {
+  color: white;
+  font-size: 15px;
+  font-family: "Raleway";
+}
+
+a:hover {
+  color: #990011;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
 }

@@ -41,6 +41,10 @@ ul li a:hover {
     color: #990011;
 }
 
+.active {
+    color: #990011;
+}
+
 
 nav .menu {
     display: none;
@@ -59,7 +63,6 @@ nav .menu span {
     background-color: #fff;
     border-radius: 0.2rem;
 }
-
 
 @media (max-width: 480px) {
     nav .menu {

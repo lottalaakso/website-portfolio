@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    padding-left: 20px;
+    margin-top: 35px;
+    animation: fadeInAnimation ease 2s; 
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+.card {
+    width: 380px;
+    height: 450px;
+    margin: 0 10px;
+}
+  
+.card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+  
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+  
+.card-front,
+.card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+  
+.card-front {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #990011;
+    font-family: 'DM Serif Display';
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+  
+.card-back {
+    background-image: url(https://img.freepik.com/free-photo/monstera-leaves-nature-background_53876-98364.jpg?t=st=1713979190~exp=1713982790~hmac=35e22cb62fe5bfae15bbeb39829b43de59e8efda89de46005e5276e57f8d0870&w=996);
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Raleway';
+}
+
+  
