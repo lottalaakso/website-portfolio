@@ -1,38 +1,15 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background: url(https://img.freepik.com/free-photo/monstera-deliciosa-concrete-wall_53876-104288.jpg?t=st=1713955711~exp=1713959311~hmac=701c0af6f898f64e41c31ec6be2faf1a77d77946efb7ab0e93be87b77e2379a6&w=1060) no-repeat, center fixed;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+  background-color: rgb(255, 255, 255, 0.3); 
+  color: rgb(0, 0, 0); 
+  text-align: center; 
 }
